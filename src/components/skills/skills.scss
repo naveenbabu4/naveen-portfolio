@@ -1,0 +1,24 @@
+.skills{
+    margin-top: 50px;
+}
+.skills-row{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 2px;
+  
+}
+.skill1{
+    background-color: rgb(32 32 34 );
+    width: 250px;
+    margin-right: 0px;
+    padding: 5px 3px 5px 35px;
+    height: 250px;
+}
+.skill2{
+    background-color: rgb(32 32 34 );
+    height: 250px;
+    width: 250px;
+    margin-right: 5px;
+    padding: 5px 3px 5px 35px;
+    margin-top: 30px;
+}
