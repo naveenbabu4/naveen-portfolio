@@ -1,4 +1,3 @@
-import React from 'react'
 import './home.scss';
 import Info from '../info/info'
 import Content from '../content/content'

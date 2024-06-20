@@ -1,7 +1,5 @@
-import React from 'react'
 import './content.scss'
 import Projects from '../projects/projects'
-import Skills from '../skills/skills'
 const Content = () => {
   return (
     <div className='content'>

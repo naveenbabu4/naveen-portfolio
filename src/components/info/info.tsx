@@ -1,5 +1,3 @@
-import React from 'react'
-import { useNavigate } from 'react-router-dom'
 import './info.scss'
 import SocialMedia from '../socialMedia/socialMedia'
 const Info = () => {
