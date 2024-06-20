@@ -2,7 +2,7 @@ import { useEffect } from 'react'
 import './projects.scss'
 
 const Projects = () => {
-    const addHeading = () => {
+    const addHeading = async () => {
         const projectDiv: any = document.querySelector('.project');
         const existingHeading = document.querySelector('.projectTitle');
         if (!existingHeading) {
@@ -12,17 +12,17 @@ const Projects = () => {
             projectDiv.insertAdjacentElement('beforebegin', heading);
         }
     }
-    const removeHeading = () => {
+    const removeHeading = async () => {
         const existingHeading = document.querySelector('.projectTitle');
         if (existingHeading) {
             existingHeading.remove();
         }
     }
-    const checkScreenWidth = () => {
+    const checkScreenWidth = async () => {
         if (window.innerWidth <= 1400) {
-            addHeading();
+           await  addHeading();
         } else {
-            removeHeading();
+           await removeHeading();
         }
     }
     const headingSticky = () => {
