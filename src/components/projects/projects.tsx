@@ -58,13 +58,6 @@ const Projects = () => {
                 </div>
             </div>
             <div className="project">
-                <div className="project-info" onClick={() => redirectToPage("https://github.com/Kran891/Travel-Agency-API.git")}>
-                    <h4>TYPESCRIPT, YAML ROUTING</h4>
-                    <h2>Travel Agency API</h2>
-                    <p>Create, Delete and Update booking and information</p>
-                </div>
-            </div>
-            <div className="project">
                 <div className="project-info" onClick={() => redirectToPage("https://github.com/Kran891/Movie-API.git")}>
                     <h4>NODEJS, TYPESCRIPT</h4>
                     <h2>MovieBuzz API</h2>
