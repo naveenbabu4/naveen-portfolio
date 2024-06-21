@@ -19,7 +19,7 @@ const Projects = () => {
         }
     }
     const checkScreenWidth =  () => {
-        if (window.innerWidth <= 1700) {
+        if (window.innerWidth <= 480) {
             addHeading();
         } else {
             removeHeading();
