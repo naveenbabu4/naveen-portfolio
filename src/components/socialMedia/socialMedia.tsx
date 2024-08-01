@@ -2,7 +2,7 @@ import './socialMedia.scss'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faArrowUpRightFromSquare} from '@fortawesome/free-solid-svg-icons';
 const SocialMedia = () => {
-  const resume = "https://drive.google.com/file/d/1DlBTpmEkh2Mw4WKhit0U9P_5L0eAMXRQ/view?usp=drive_link";
+  const resume = "https://drive.google.com/file/d/1OC5chHBEQl5qPojmlYG2sShyjnpvctDa/view?usp=drive_link";
   const redirectToSite = (url:string) =>{
     window.open(url,'_blank');
   }
